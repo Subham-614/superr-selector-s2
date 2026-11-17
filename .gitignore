@@ -1,0 +1,24 @@
+# SupeRR Selector Season 2 - .gitignore
+# Exclude raw 100MB+ intermediate files that exceed GitHub 100MB limit
+data/processed/step1_reconstructed_bbb.csv
+data/processed/step2_pressure_indexed_bbb.csv
+data/raw/ball_by_ball.csv
+
+# Python cache & temp files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment & IDE
+venv/
+.venv/
+env/
+.idea/
+.vscode/
+
+# Streamlit config/cache
+.streamlit/secrets.toml
